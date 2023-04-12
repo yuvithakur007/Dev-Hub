@@ -3,7 +3,7 @@
 
 DevHub is a platform designed for tech enthusiasts to showcase their skills, compete with peers, and find job opportunities that match their skill set. Whether you're a developer, designer, or another tech professional, provides a space where you can demonstrate your expertise.
 
-## Profile Page
+## Home Page
 <img align="center" src="Home page.png">
 
 ## Profile Page
