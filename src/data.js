@@ -107,7 +107,6 @@ export const projects = [
     username: "Ward Brewer",
   },
 ];
-
 export const gigs = [
   {
     id: 1,
