@@ -12,6 +12,11 @@ const GigCard = ({ item }) => {
         return res.data;
       }),
   });
+  function truncate(str, length) {
+    if (str.length > length) {
+      return str.slice(0, length) + '. . .';
+    } else return str;
+  }
   return (
     <Link to={`/gig/${item._id}`} className="link">
       <div className="gigCard">
@@ -27,7 +32,7 @@ const GigCard = ({ item }) => {
               <span>{data.username}</span>
             </div>
           )}
-          <p>{item.desc}</p>
+          <p>{ truncate(item.shortDesc, 50)}</p>
           <div className="star">
             <img src="./img/star.png" alt="" />
             <span>
